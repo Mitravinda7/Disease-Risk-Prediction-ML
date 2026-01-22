@@ -1,2 +1,2 @@
 This project uses the built-in diabetes dataset from scikit-learn.
-No external CSV file was required.
+The dataset is loaded programmatically and does not require external CSV files.
