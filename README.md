@@ -1,18 +1,24 @@
-# Disease-Risk-Prediction-ML
-Regression-based machine learning project for disease risk prediction
+# Disease Risk Prediction — Machine Learning Project
 
-This project focuses on building a regression-based machine learning model to predict disease risk using patient health data.
+This project focuses on predicting disease progression risk using a regression-based machine learning approach.
 
-Planned Workflow:
-- Data loading and preprocessing
-- Handling missing values and outliers
-- Feature encoding and scaling
-- Train-test split
-- Training regression models
-- Model evaluation using R², MAE, and RMSE
-- Visualization of predicted vs actual values
+## Problem Statement
+The goal of this project is to build a regression model that can predict disease progression based on multiple health-related features.
 
-Tech Stack:
+## Dataset
+The dataset is sourced from the built-in diabetes dataset in scikit-learn, which contains numeric health-related features and a continuous target variable representing disease progression.
+
+## Workflow
+1. Data loading and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature-target separation
+4. Train-test split
+5. Model training (Linear Regression, Random Forest)
+6. Model evaluation using R², MAE, and RMSE
+7. Model comparison
+8. Visualization of predictions
+
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -20,4 +26,8 @@ Tech Stack:
 - Matplotlib
 - Seaborn
 
+## Results
+Random Forest regression performed better compared to Linear Regression based on evaluation metrics.
 
+## Conclusion
+This project demonstrates a complete machine learning pipeline from data understanding to model evaluation using regression techniques.
