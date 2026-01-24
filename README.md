@@ -26,6 +26,12 @@ The dataset is sourced from the built-in diabetes dataset in scikit-learn, which
 - Matplotlib
 - Seaborn
 
+## How to Run
+
+Open the notebook file in Google Colab or Jupyter Notebook and execute the cells in order to reproduce the analysis and results.
+
+
+
 ## Results
 Random Forest regression performed better compared to Linear Regression based on evaluation metrics.
 
